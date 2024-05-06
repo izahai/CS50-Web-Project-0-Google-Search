@@ -2,11 +2,16 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="https://www.google.com/favicon.ico">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="description_of_the_image">
+        <div class = "search-bar">
+            <form action="https://www.google.com/search" method="get">
+                <input type="text" name="q" class="search-input"> <!-- q is the query parameter of google -->
+                <input type="submit" value="Google Search" class="search-button">
+            </form>
+        </div>
     </body>
 </html>
