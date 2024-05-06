@@ -8,15 +8,16 @@
     <body>
         <div class="container">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            
             <div class="search-bar">
                 <form action="https://www.google.com/search" method="get">
                     <input type="text" name="q">
-                    <img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/search/v6/24px.svg?download=true" alt="Search" class="search-icon">
-                    <input type="submit" value="Search">
+                    <img id="search-icon" src="https://fonts.gstatic.com/s/i/materialiconsoutlined/search/v6/24px.svg?download=true" alt="Search">
+                    <div class=button-container>
+                        <input id="search-button" type="submit" value="Google Search">
+                        <input id="imlucky-button" type="submit" value="I'm Feeling Lucky">
+                    </div>
                 </form>
             </div>
-            
         </div>
     </body>
 </html>
