@@ -6,11 +6,30 @@ body {
     margin: 0;
     background-color: #ffffff;
     font-family: Arial, sans-serif;
-    padding-top: 120px;
+}
+
+.headContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.headContainer #round-logo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.headContainer #round-logo:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 3px rgb(223, 223, 223);
 }
 
 .container {
     display: flex;
+    margin-top: 250px;
     flex-direction: column;
     align-items: center;
 }
@@ -56,9 +75,19 @@ body {
     width: 20px;
 }
 
-.search
-
 .search-bar #mic-icon:hover {
+    cursor: pointer;
+}
+
+.search-bar #lens-icon {
+    position: absolute;
+    right: 15px;
+    height: 25px;
+    top: 8px;
+    width: 25px;
+}
+
+.search-bar #lens-icon:hover {
     cursor: pointer;
 }
 
