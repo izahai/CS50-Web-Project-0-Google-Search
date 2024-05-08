@@ -13,18 +13,34 @@ body {
     flex-direction: column;
 }
 
+.headContainer #round-img,
+.headContainer #round-9dots,
 .headContainer #round-logo {
     position: absolute;
     top: 15px;
-    right: 15px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
 
+.headContainer #round-logo{
+    right: 15px;
+}
+
+.headContainer #round-9dots {
+    right: 60px;
+}
+
+.headContainer #round-img:hover,
 .headContainer #round-logo:hover {
     cursor: pointer;
     box-shadow: 0 0 0 3px rgb(223, 223, 223);
+}
+
+.headContainer #round-9dots:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 3px rgb(223, 223, 223);
+    color: rgb(223, 223, 223);
 }
 
 .container {
