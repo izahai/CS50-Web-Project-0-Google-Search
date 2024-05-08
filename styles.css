@@ -3,7 +3,6 @@ body {
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    margin: 0;
     background-color: #ffffff;
     font-family: Arial, sans-serif;
 }
@@ -11,6 +10,25 @@ body {
 .headContainer {
     display: flex;
     flex-direction: column;
+}
+
+.headContainer #my-link,
+.headContainer #image-link {
+    position: absolute;
+    font-size: small;
+    color: black;
+    text-decoration: none;
+    top: 23px;
+}
+
+.headContainer #image-link {
+    right: 120px;
+}
+
+.headContainer #my-link:hover,
+.headContainer #image-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .headContainer #round-img,
