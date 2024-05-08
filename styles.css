@@ -2,7 +2,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 100vh;
     background-color: #ffffff;
     font-family: Arial, sans-serif;
 }
@@ -13,7 +12,8 @@ body {
 }
 
 .headContainer #my-link,
-.headContainer #image-link {
+.headContainer #image-link,
+.headContainer #gmail-link {
     position: absolute;
     font-size: small;
     color: black;
@@ -25,8 +25,13 @@ body {
     right: 120px;
 }
 
+.headContainer #gmail-link {
+    right: 180px;
+}
+
 .headContainer #my-link:hover,
-.headContainer #image-link:hover {
+.headContainer #image-link:hover,
+.headContainer #gmail-link:hover {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -58,7 +63,7 @@ body {
 .headContainer #round-9dots:hover {
     cursor: pointer;
     box-shadow: 0 0 0 3px rgb(223, 223, 223);
-    color: rgb(223, 223, 223);
+    fill: rgb(223, 223, 223);
 }
 
 .container {
